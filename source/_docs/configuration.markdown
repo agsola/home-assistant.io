@@ -25,7 +25,7 @@ If you run into trouble while configuring Home Assistant, have a look at the [co
 
 <div class='note tip'>
 
-  Test any changes to your configuration files from the command line with `hass --script check_config`. This script allows you to test changes without the need to restart Home Assistant. Remember to run this as the user you run Home Assistant as.
+  [Test](/docs/configuration/troubleshooting/#problems-with-the-configuration) any changes to your configuration files from the command line with the ha command in Home Assistant: `ha core check` or in Home Assistant Core with `hass --script check_config`. This script allows you to test changes without the need to restart Home Assistant. Remember to run this as the user you run Home Assistant as.
 
 </div>
 
